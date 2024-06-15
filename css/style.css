@@ -5,9 +5,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .container {
+    background-color: #dcdce5;
     width: 100%;
-    background-color: #f6f6f6;
     text-align: center;
 }
 
@@ -21,6 +22,7 @@ body {
     height: 85px;
     padding-top: 8px;
     padding-left: 2px;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -48,6 +50,12 @@ body {
     width: 600px;
     height: 239px;
     margin-bottom: 6px;
+}
+
+.fon {
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
 }
 
 h2 {
@@ -129,11 +137,7 @@ h3 {
     width: 100%;
 }
 
-.three-images td {
-    text-align: center;
-    vertical-align: top;
-    width: 33.33%;
-}
+
 
 .three-images img.geolocation {
     width: 37px;
@@ -150,8 +154,32 @@ h3 {
     height: 46px;
 }
 
+.mon-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+    vertical-align: top;
+    padding: 0;
+    margin-right: 90px;
+
+}
+
+.edm-title {
+     font-size: 16px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+    vertical-align: top;
+    padding: 0;
+    margin-right: 90px;
+}
+
 .title {
     font-size: 13px;
+    line-height: 18px;
     color: #666666;
     font-family: "Arial";
 }
@@ -169,12 +197,12 @@ h3 {
 }
 
 .montreal {
-    width: 260px;
     height: 65px;
     font-size: 13px;
     line-height: 19px;
     color: #9999a6;
     font-family: "Arial";
+    margin-right: 80px;
 }
 
 .montreal2 {
@@ -188,13 +216,13 @@ h3 {
 }
 
 .sending {
-width: 540px;
-height: 60px;
-font-size: 13px;
-line-height: 20px;
-color: #ffffff;
-font-family: "Arial";
-text-align: center;
+    width: 540px;
+    height: 60px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
 }
 
 .cta-button {
